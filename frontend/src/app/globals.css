@@ -1,0 +1,60 @@
+/* @import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+.custom-label{
+  font-size: 20px;
+} 
+.select1{
+  width: 1000px;
+}
+.edit_table td{
+  border: 1px solid rgb(201, 201, 201);
+  height: 500px;
+}
+.edit_table th{
+  border: 1px solid rgb(201, 201, 201);
+}
+.custom-placeholder::placeholder {
+  color: rgb(226, 140, 140) !important;
+}
+.custom-placeholder input::placeholder {
+  color: rgb(226, 140, 140) !important;
+}
+.red-border {
+  border: 1px solid rgb(159, 212, 255) ;
+  background-color: rgb(240, 249, 255);
+}
+:where(.css-dev-only-do-not-override-m54yah).ant-table-wrapper .ant-table-thead >tr>th {
+  background-color: rgb(230, 245, 255);
+}
+:where(.css-dev-only-do-not-override-m54yah).ant-table-wrapper .ant-table-cell-fix-left {
+  background-color: rgb(230, 245, 255);
+}
+.blue-scroll {
+  scrollbar-color: #0288d1 #e0f7fa;
+}
